@@ -1,0 +1,19 @@
+<table>
+    <thead>
+      <th>Name</th>
+      <th>Passeport Number</th>
+      <th>Phone Number</th>
+      <th>Nationalite</th>
+      <th>Gender</th>
+      <th></th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of passengers">
+        <td>{{ p.name }}</td>
+        <td>{{ p.passportnumber }}</td>
+        <td>{{ p.phone }}</td>
+        <td>{{ p.nationalite }}</td>
+        <td>{{ p.gender }}</td>
+      </tr>
+    </tbody>
+  </table>
